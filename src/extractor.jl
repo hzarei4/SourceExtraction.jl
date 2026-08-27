@@ -353,6 +353,7 @@ use `SourceExtractor` and `extract_sources!` to reuse prepared buffers.
 
 ```julia
 xs, ys = find_sources(image)
+```
 
 """
 function find_sources(
