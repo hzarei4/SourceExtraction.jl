@@ -2,5 +2,9 @@ using SourceExtraction
 using Test
 
 @testset "SourceExtraction.jl" begin
-    # Write your tests here.
+    include("detection.jl")
+    include("filters.jl")
+    include("rois.jl")
+    include("cuda.jl")
+    include("extractor.jl")
 end

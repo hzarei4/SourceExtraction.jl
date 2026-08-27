@@ -1,0 +1,11 @@
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+FITSIO = "525bcba6-941b-5504-bd06-fd0dc1a4d2eb"
+FourierTools = "b18b359b-aebc-45ac-a139-9c0ccbb2871e"
+ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
+ImageMorphology = "787d08f9-d448-5407-9aad-5290dd7ab264"
+Photometry = "af68cb61-81ac-52ed-8703-edc140936be4"
+SeparableFunctions = "c8c7ead4-852c-491e-a42d-3d43bc74259e"
+SourceExtraction = "afb6e16b-74ab-49c1-8308-99f7a5a7da2e"

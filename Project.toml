@@ -1,13 +1,27 @@
 name = "SourceExtraction"
 uuid = "afb6e16b-74ab-49c1-8308-99f7a5a7da2e"
-authors = ["Hossein Zarei Oshtolagh"]
 version = "0.1.0"
+authors = ["Hossein Zarei Oshtolagh"]
+
+[deps]
+FourierTools = "b18b359b-aebc-45ac-a139-9c0ccbb2871e"
+SeparableFunctions = "c8c7ead4-852c-491e-a42d-3d43bc74259e"
 
 [compat]
+FourierTools = "0.5.1"
+SeparableFunctions = "0.5"
+CUDA = "5, 6"
 julia = "1.10"
 
+[weakdeps]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+
+[extensions]
+SourceExtractionCUDAExt = "CUDA"
+
 [extras]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
-test = ["Test"]
+test = ["Test", "CUDA"]

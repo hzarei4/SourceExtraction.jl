@@ -1,0 +1,10 @@
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+FourierTools = "b18b359b-aebc-45ac-a139-9c0ccbb2871e"
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
+SeparableFunctions = "c8c7ead4-852c-491e-a42d-3d43bc74259e"
+SourceExtraction = "afb6e16b-74ab-49c1-8308-99f7a5a7da2e"
