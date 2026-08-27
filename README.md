@@ -34,6 +34,16 @@ xs, ys = find_sources(
 )
 ```
 
+## Microscopy example
+
+Detected sources are marked with rings in this simulated bead image:
+
+![Detected sources in a simulated microscopy bead image](examples/sample_beads_image_detected_sources.png)
+
+See [`examples/microscopy_source_detection.jl`](examples/microscopy_source_detection.jl)
+for the simulation and detection code, or download the
+[original TIFF image](examples/sample_beads_image_detected_sources.tiff).
+
 ## Prepared API
 
 For repeated processing, prepare the extractor once and reuse its buffers:
